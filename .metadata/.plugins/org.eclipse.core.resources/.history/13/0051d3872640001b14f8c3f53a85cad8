@@ -1,0 +1,5 @@
+package com.biz.big.mapper;
+
+public interface ProductDao {
+
+}

@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\bizwork\workspace\onedaypos\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2874865892.index
+1219715505.index
+110555652.index
+3383989124.index
+4004868328.index
+2485275862.index
+1017279263.index
+2867657235.index

@@ -1,0 +1,63 @@
+package com.biz.big.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.biz.big.mapper.ProductDao;
+import com.biz.big.model.ProductVO;
+import com.biz.big.service.ProductService;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@Service(value="proServiceV1")
+public class ProductServiceImpl implements ProductService{
+	
+	@Autowired
+	private ProductDao proDao;
+	
+	public List<ProductVO> selectAll() {
+		// TODO Auto-generated method stub
+		return proDao.selectAll();
+	}
+
+	@Override
+	public ProductVO findById(String id) {
+		// TODO Auto-generated method stub
+		return proDao.findById(id);
+	}
+
+	@Override
+	public int insert(ProductVO vo) {
+		// TODO Auto-generated method stub
+		return proDao.insert(vo);
+	}
+
+	@Override
+	public int update(ProductVO vo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int delete(String id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<ProductVO> findByTitle(String title) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getPCode() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

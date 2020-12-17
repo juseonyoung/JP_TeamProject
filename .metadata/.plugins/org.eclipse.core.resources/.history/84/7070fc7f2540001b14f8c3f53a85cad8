@@ -1,0 +1,5 @@
+package com.biz.big.service;
+
+public interface ProductDao {
+
+}
